@@ -1,0 +1,693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ditty Twitter Ticker v1.2.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-02-27 22:09:37+0000\n"
+"Last-Translator: Ahrale <contact@atar4u.com>\n"
+"Language-Team: Ahrale, Atar4U.com <contact@atar4u.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#  $types['twitter'] = array(
+#  'button' => __('Twitter', 'ditty-twitter-ticker'),
+#  'metaboxes' => array( 'mtphr_dnt_twitter_metabox' )
+#  wpml-name: 2491bc9c7d8731e1ae33124093bc7026
+#: includes/filters.php:10
+#@ ditty-twitter-ticker
+msgid "Twitter"
+msgstr "Twitter"
+
+#  echo '<div id="mtphr_dnt_twitter_settings_cache_time" class="clearfix">';
+#  echo '<label><input class="small-text" type="number" name="mtphr_dnt_twitter_settings[cache_time]" value="'.$settings['cache_time'].'" /> '.__('Minutes', 'ditty-twitter-ticker').'</label>';
+#  echo '</div>';
+#  wpml-name: f670ea66cfb0e90bd6090472ad692694
+#: includes/settings.php:396
+#@ ditty-twitter-ticker
+msgid "Minutes"
+msgstr "דקות"
+
+#  echo '<p><strong>'.__('Sorry, there was an issue authorizing Twitter.', 'ditty-twitter-ticker').'</strong><br/>';
+#  echo sprintf(__('Error %s:', 'ditty-twitter-ticker'), $error_code).' '.$error_message.'</p>';
+#  wpml-name: ed709ab39e4361604d3c3b3717af3896
+#: includes/settings.php:348
+#, php-format
+#@ ditty-twitter-ticker
+msgid "Error %s:"
+msgstr "שגיאה %s:"
+
+#  echo '<p><strong>'.__('Sorry, there was an issue authorizing Twitter.', 'ditty-twitter-ticker').'</strong><br/>';
+#  echo sprintf(__('Error %s:', 'ditty-twitter-ticker'), $error_code).' '.$error_message.'</p>';
+#  wpml-name: 7072130bf16f787017fb7d815ea28da3
+#: includes/settings.php:347
+#@ ditty-twitter-ticker
+msgid "Sorry, there was an issue authorizing Twitter."
+msgstr "מצטערים, היתה שגיאה בהרשאת Twitter."
+
+#  // Render the authorize button
+#  echo '<p><a id="ditty-twitter-authorize" class="button button-primary" href="https://api.twitter.com/oauth/authorize?oauth_token='.$response['oauth_token'].'">'.__('Authorize Twitter', 'ditty-twitter-ticker').'</a></p>';
+#  wpml-name: 3a80adcf8f5dc23f594900f12aa0563c
+#: includes/settings.php:322
+#@ ditty-twitter-ticker
+msgid "Authorize Twitter"
+msgstr "אשר את Twitter"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  echo __( 'Select <strong>Save Changes</strong> below', 'ditty-twitter-ticker' ).' ';
+#  echo '</div>';
+#  wpml-name: 136525609957787407a1c140575ea178
+#: includes/settings.php:270
+#@ ditty-twitter-ticker
+msgid "Select <strong>Save Changes</strong> below"
+msgstr "בחר <strong>שמור את השינויים</strong> להלן"
+
+#  echo __( 'Copy and paste the generated <strong>API secret</strong> here', 'ditty-twitter-ticker' ).' ';
+#  echo '<input style="width:auto;" type="text" name="mtphr_dnt_twitter_settings[secret]" value="'.$settings['secret'].'" placeholder="'.__('API secret', 'ditty-twitter-ticker').'" size="30" />';
+#  echo '</div>';
+#  wpml-name: 366522fd60d531a12f1f8b1d460f82fb
+#: includes/settings.php:259
+#@ ditty-twitter-ticker
+msgid "API secret"
+msgstr "API secret"
+
+#  echo __( 'Copy and paste the generated <strong>API key</strong> here', 'ditty-twitter-ticker' ).' ';
+#  echo '<input style="width:auto;" type="text" name="mtphr_dnt_twitter_settings[key]" value="'.$settings['key'].'" placeholder="'.__('API key', 'ditty-twitter-ticker').'" size="30" />';
+#  echo '</div>';
+#  wpml-name: 656a6828d7ef1bb791e42087c4b5ee6e
+#: includes/settings.php:247
+#@ ditty-twitter-ticker
+msgid "API key"
+msgstr "מפתח API"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  echo __( 'Select <strong>Create your Twitter Application</strong> to register your new application', 'ditty-twitter-ticker' ).' ';
+#  echo '</div>';
+#  wpml-name: 6477785903073fea87e63f829f9a7dcc
+#: includes/settings.php:224
+#@ ditty-twitter-ticker
+msgid "Select <strong>Create your Twitter Application</strong> to register your new application"
+msgstr "בחר <strong>Create your Twitter Application</strong> כדי לרשום את האפליקציה החדשה שלך"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  echo __( 'Copy and paste the following URL into the <strong>Callback URL</strong> field', 'ditty-twitter-ticker' ).'<br/>';
+#  echo '<pre><strong>'.$settings['redirect_uri'].'</strong></pre>';
+#  wpml-name: 7f422837077fa3efdd0ac7e2de52a120
+#: includes/settings.php:201
+#@ ditty-twitter-ticker
+msgid "Copy and paste the following URL into the <strong>Callback URL</strong> field"
+msgstr "העתק והדבק את כתובת ה URL לשדה ה <strong>Callback URL</strong>"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  echo __( 'Copy and paste the following URL into the <strong>Website</strong> field', 'ditty-twitter-ticker' ).'<br/>';
+#  echo '<pre><strong>'.home_url().'</strong></pre>';
+#  wpml-name: 4a644d2e5544a0dfa030d80e35fdaf5c
+#: includes/settings.php:189
+#@ ditty-twitter-ticker
+msgid "Copy and paste the following URL into the <strong>Website</strong> field"
+msgstr "העתק והדבק את כתובת ה  URL שלהלן אל השדה  <strong>Website</strong> field"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  echo __( 'Give your application an appropriate <strong>Name</strong> and <strong>Description</strong>', 'ditty-twitter-ticker' );
+#  echo '</div>';
+#  wpml-name: 0323a3a7514abb914d3a4b0300b5915e
+#: includes/settings.php:178
+#@ ditty-twitter-ticker
+msgid "Give your application an appropriate <strong>Name</strong> and <strong>Description</strong>"
+msgstr "תן לאפליקציה שלך  <strong>שם</strong> ו <strong>תיאור</strong> הולמים"
+
+#  $url = '<a class="button button-small" href="https://apps.twitter.com/app/new" target="_blank"><strong>'.__('Create New App', 'ditty-twitter-ticker').'</strong></a>';
+#  echo sprintf(__( 'Select %s', 'ditty-twitter-ticker' ), $url);
+#  echo '</div>';
+#  wpml-name: 4c34b52c71d3616b7debe4e48fc2df71
+#: includes/settings.php:167
+#, php-format
+#@ ditty-twitter-ticker
+msgid "Select %s"
+msgstr "בחר %s"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  $url = '<a class="button button-small" href="https://apps.twitter.com/app/new" target="_blank"><strong>'.__('Create New App', 'ditty-twitter-ticker').'</strong></a>';
+#  echo sprintf(__( 'Select %s', 'ditty-twitter-ticker' ), $url);
+#  wpml-name: 967b9a0661f2e8fdc6f3d5f4f0260810
+#: includes/settings.php:166
+#@ ditty-twitter-ticker
+msgid "Create New App"
+msgstr "Create New App"
+
+#  echo '<div class="mtphr-dnt-instruction-info-wrapper">';
+#  $url = '<a href="https://apps.twitter.com" target="_blank"><strong>'.__('My applications', 'ditty-twitter-ticker').'</strong></a>';
+#  echo sprintf(__( 'Hover over your avatar and select %s', 'ditty-twitter-ticker' ), $url);
+#  wpml-name: 8ec1ab6858e5aa8e691175e068d7f134
+#: includes/settings.php:154
+#@ ditty-twitter-ticker
+msgid "My applications"
+msgstr "האפליקציות שלי"
+
+#  /* Cache time */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Cache Time', 'ditty-twitter-ticker' ), __('Set the amount of time your feeds should stay cached', 'ditty-twitter-ticker') );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_cache_time', $title, 'mtphr_dnt_twitter_settings_cache_time', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: b20d80b0ab6cb676b6aef19d2f04528a
+#: includes/settings.php:115
+#@ ditty-twitter-ticker
+msgid "Set the amount of time your feeds should stay cached"
+msgstr "קבע את כמות הזמן שההזנות שלך צריכות להיות במטמון"
+
+#  /* Cache time */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Cache Time', 'ditty-twitter-ticker' ), __('Set the amount of time your feeds should stay cached', 'ditty-twitter-ticker') );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_cache_time', $title, 'mtphr_dnt_twitter_settings_cache_time', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: 3a5d91313dff6330069f4df8dc11a517
+#: includes/settings.php:115
+#@ ditty-twitter-ticker
+msgid "Cache Time"
+msgstr "זמן מטמון"
+
+#  /* Authorization */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Authorization', 'ditty-twitter-ticker' ), sprintf(__('You must authorize your account with Twitter to use Ditty Twitter Ticker %s', 'ditty-twitter-ticker'), $reset_info) );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_authorize', $title, 'mtphr_dnt_twitter_settings_authorize', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: d992e667780e5223ce6e071f7ad52ed6
+#: includes/settings.php:103
+#, php-format
+#@ ditty-twitter-ticker
+msgid "You must authorize your account with Twitter to use Ditty Twitter Ticker %s"
+msgstr "אתה חייב לאשר את החשבון שלך עם Twitter כדי להשתמש בתוסף Ditty Twitter Ticker %s"
+
+#  /* Authorization */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Authorization', 'ditty-twitter-ticker' ), sprintf(__('You must authorize your account with Twitter to use Ditty Twitter Ticker %s', 'ditty-twitter-ticker'), $reset_info) );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_authorize', $title, 'mtphr_dnt_twitter_settings_authorize', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: 9cd8a2455b1839ff98ef70c05b9b5983
+#: includes/settings.php:103
+#@ ditty-twitter-ticker
+msgid "Authorization"
+msgstr "הרשאה"
+
+#  /* Error */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Twitter Error', 'ditty-twitter-ticker' ), sprintf(__('Whoops! There seems to have been an error connecting to Twitter. %s', 'ditty-twitter-ticker'), $reset_info) );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_error', $title, 'mtphr_dnt_twitter_settings_error', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings, 'error_code' => $twitter['response']['code'], 'error_message' => $twitter['response']['message']) );
+#  wpml-name: 241923b2ecac7926ac2b8ac6ddace91d
+#: includes/settings.php:95
+#, php-format
+#@ ditty-twitter-ticker
+msgid "Whoops! There seems to have been an error connecting to Twitter. %s"
+msgstr "אופס! נראה שיש שגיאהבחיבור ל Twitter. %s"
+
+#  /* Error */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Twitter Error', 'ditty-twitter-ticker' ), sprintf(__('Whoops! There seems to have been an error connecting to Twitter. %s', 'ditty-twitter-ticker'), $reset_info) );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_error', $title, 'mtphr_dnt_twitter_settings_error', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings, 'error_code' => $twitter['response']['code'], 'error_message' => $twitter['response']['message']) );
+#  wpml-name: 9cf65de56aea9e7baededfa275822b64
+#: includes/settings.php:95
+#@ ditty-twitter-ticker
+msgid "Twitter Error"
+msgstr "שגיאת Twitter"
+
+#  /* User Info */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Twitter User Info', 'ditty-twitter-ticker' ), sprintf(__('Congratulation! You are now connected to Twitter. %s', 'ditty-twitter-ticker'), $reset_auth) );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_user_info', $title, 'mtphr_dnt_twitter_settings_user_info', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: 43639008e233c42a9469b7d0fc8d6642
+#: includes/settings.php:89
+#: includes/settings.php:110
+#, php-format
+#@ ditty-twitter-ticker
+msgid "Congratulation! You are now connected to Twitter. %s"
+msgstr "מזל טוב! אתה מחובר כעת ל Twitter. %s"
+
+#  /* User Info */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'Twitter User Info', 'ditty-twitter-ticker' ), sprintf(__('Congratulation! You are now connected to Twitter. %s', 'ditty-twitter-ticker'), $reset_auth) );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_user_info', $title, 'mtphr_dnt_twitter_settings_user_info', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: 1023d303f83556b7b56a6dea525b8393
+#: includes/settings.php:89
+#: includes/settings.php:110
+#@ ditty-twitter-ticker
+msgid "Twitter User Info"
+msgstr "מידע משתמש Twitter"
+
+#  /* API Information */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'API Information', 'ditty-twitter-ticker' ), __('In order to connect to Twitter you must create a custom application with your account. Please follow the directions here to quickly get your application up and running!', 'ditty-twitter-ticker') );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_api_info', $title, 'mtphr_dnt_twitter_settings_api_info', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: 1c5a46d2c73473cbd37faa9c1ba41e3e
+#: includes/settings.php:60
+#@ ditty-twitter-ticker
+msgid "In order to connect to Twitter you must create a custom application with your account. Please follow the directions here to quickly get your application up and running!"
+msgstr "כדי להתחבר ל Twitter אתה חייב ליצור אפליקציה אישית בחשבון שלך. נא לעקוב אחר ההנחיות שלהלן לביצוע מהיר!"
+
+#  /* API Information */
+#  $title = mtphr_dnt_twitter_settings_label( __( 'API Information', 'ditty-twitter-ticker' ), __('In order to connect to Twitter you must create a custom application with your account. Please follow the directions here to quickly get your application up and running!', 'ditty-twitter-ticker') );
+#  add_settings_field( 'mtphr_dnt_twitter_settings_api_info', $title, 'mtphr_dnt_twitter_settings_api_info', 'mtphr_dnt_twitter_settings', 'mtphr_dnt_twitter_settings_section', array('settings' => $settings) );
+#  wpml-name: 52e78a5f370ede2e9b103647b829ed0d
+#: includes/settings.php:60
+#@ ditty-twitter-ticker
+msgid "API Information"
+msgstr "מידע API"
+
+#  $reset_auth = '<p><a id="ditty-twitter-reset" class="button button-small" href="'.$reset_url.'">'.__('Reset Authorization', 'ditty-twitter-ticker').'</a></p>';
+#  $reset_info = '<p><a id="ditty-twitter-reset" class="button button-small" href="'.$reset_url.'">'.__('Reset Information', 'ditty-twitter-ticker').'</a></p>';
+#  wpml-name: 372360e97dac58250a50bbe5c05cd01f
+#: includes/settings.php:51
+#@ ditty-twitter-ticker
+msgid "Reset Information"
+msgstr "איפוס מידע"
+
+#  $reset_url = get_admin_url().'edit.php?post_type=ditty_news_ticker&page=mtphr_dnt_settings&tab=twitter&settings-updated=reset';
+#  $reset_auth = '<p><a id="ditty-twitter-reset" class="button button-small" href="'.$reset_url.'">'.__('Reset Authorization', 'ditty-twitter-ticker').'</a></p>';
+#  $reset_info = '<p><a id="ditty-twitter-reset" class="button button-small" href="'.$reset_url.'">'.__('Reset Information', 'ditty-twitter-ticker').'</a></p>';
+#  wpml-name: e117f0b7e9150cace68c9f5f5f60cf9a
+#: includes/settings.php:50
+#@ ditty-twitter-ticker
+msgid "Reset Authorization"
+msgstr "איפוס הרשאה"
+
+#  add_settings_section( 'mtphr_dnt_twitter_settings_section', __( 'Ditty Twitter Ticker settings', 'ditty-twitter-ticker' ), false, 'mtphr_dnt_twitter_settings' );
+#  wpml-name: 0c8cdd60b164939f8ec49af6bcc1033f
+#: includes/settings.php:46
+#@ ditty-twitter-ticker
+msgid "Ditty Twitter Ticker settings"
+msgstr "הגדרות מבזקי Twitter"
+
+#  } else {
+#  return '<div id="message" class="error"><p>'.sprintf(__('Error: %s', 'ditty-twitter-ticker'), $twitter['body']).'</p></div>';
+#  }
+#  wpml-name: 10e10a814f3c1f9a5e847376c975ea3c
+#: includes/helpers.php:61
+#: includes/helpers.php:96
+#: includes/helpers.php:129
+#: includes/helpers.php:162
+#: includes/helpers.php:202
+#: includes/helpers.php:240
+#: includes/settings.php:326
+#, php-format
+#@ ditty-twitter-ticker
+msgid "Error: %s"
+msgstr "שגיאה: %s"
+
+#  } else {
+#  $new_ticks[] = '<p>'.__('Twitter access not yet configured.', 'ditty-twitter-ticker').'</p>';
+#  }
+#  wpml-name: 4a58d2c3243d58a01a450440c90f8fc4
+#: includes/functions.php:214
+#@ ditty-twitter-ticker
+msgid "Twitter access not yet configured."
+msgstr "עדיין לא הוגדרה גישה ל Twitter."
+
+#  if( $error ) {
+#  echo '<div class="error"><p>'.__('Please include at least one Twitter <strong>handle</strong> or <strong>keyword</strong> to display Tweets!','ditty-twitter-ticker').'</p></div>';
+#  }
+#  wpml-name: e79199ad14100551c212f65f6dc78267
+#: includes/admin/notices.php:53
+#@ ditty-twitter-ticker
+msgid "Please include at least one Twitter <strong>handle</strong> or <strong>keyword</strong> to display Tweets!"
+msgstr "נא לכלול לפחות <strong>מאחז</strong> אחד של Twitter או <strong>מילת מפתח</strong> כדי להציג ציוצים!"
+
+#  echo '<option value="home_timeline" '.selected('home_timeline', $type, false).'>'.__('Home timeline (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="retweets_of_me" '.selected('retweets_of_me', $type, false).'>'.__('Retweets (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '</select>';
+#  wpml-name: 794fb11dc2cae925e0325621cedd0071
+#: includes/admin/meta-boxes.php:247
+#@ ditty-twitter-ticker
+msgid "Retweets (of registered user)"
+msgstr "ציוצים חוזרים (של משתמש רשום)"
+
+#  echo '<option value="mentions_timeline" '.selected('mentions_timeline', $type, false).'>'.__('Mentions (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="home_timeline" '.selected('home_timeline', $type, false).'>'.__('Home timeline (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="retweets_of_me" '.selected('retweets_of_me', $type, false).'>'.__('Retweets (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  wpml-name: e1e93e08ecbad9100a3959ec28207700
+#: includes/admin/meta-boxes.php:246
+#@ ditty-twitter-ticker
+msgid "Home timeline (of registered user)"
+msgstr "ציר הזמן (של משתמש רשום)"
+
+#  echo '<option value="list" '.selected('list', $type, false).'>'.__('List (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="mentions_timeline" '.selected('mentions_timeline', $type, false).'>'.__('Mentions (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="home_timeline" '.selected('home_timeline', $type, false).'>'.__('Home timeline (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  wpml-name: fa8736ef4873463f5d78e8696096365e
+#: includes/admin/meta-boxes.php:245
+#@ ditty-twitter-ticker
+msgid "Mentions (of registered user)"
+msgstr "אזכורים (של משתמש רשום)"
+
+#  echo '<option value="search" '.selected('search', $type, false).'>'.__('Keyword search', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="list" '.selected('list', $type, false).'>'.__('List (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="mentions_timeline" '.selected('mentions_timeline', $type, false).'>'.__('Mentions (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  wpml-name: 5393acea33607d6c0668926632737ba4
+#: includes/admin/meta-boxes.php:244
+#@ ditty-twitter-ticker
+msgid "List (of registered user)"
+msgstr "רשימה (של משתמש רשום)"
+
+#  echo '<option value="user_timeline" '.selected('user_timeline', $type, false).'>'.__('User timeline', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="search" '.selected('search', $type, false).'>'.__('Keyword search', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="list" '.selected('list', $type, false).'>'.__('List (of registered user)', 'ditty-twitter-ticker').'</option>';
+#  wpml-name: f07d93f4db39d97fcd004ec316b61e23
+#: includes/admin/meta-boxes.php:243
+#@ ditty-twitter-ticker
+msgid "Keyword search"
+msgstr "חיפוש מילת מפתח"
+
+#  echo '<select name="_mtphr_dnt_twitter_handles[type]" data-name="_mtphr_dnt_twitter_handles" data-key="type">';
+#  echo '<option value="user_timeline" '.selected('user_timeline', $type, false).'>'.__('User timeline', 'ditty-twitter-ticker').'</option>';
+#  echo '<option value="search" '.selected('search', $type, false).'>'.__('Keyword search', 'ditty-twitter-ticker').'</option>';
+#  wpml-name: 96d82ffd4da45132fa1c58869b805566
+#: includes/admin/meta-boxes.php:242
+#@ ditty-twitter-ticker
+msgid "User timeline"
+msgstr "ציר זמן של משתמש"
+
+#  <div class="error">
+#  <p><?php _e('You must authorize <strong>Ditty Twitter Ticker</strong> access through Twitter before you can display any feeds.', 'ditty-twitter-ticker'); ?><br/><?php printf( __('<a href="%s"><strong>Click here</strong></a> for instructions on creating an app and granting acces to <strong>Ditty Twitter Ticker</strong>.', 'ditty-twitter-ticker'), $link ); ?></p>
+#  </div>
+#  wpml-name: 4e0e45e3902cda2f94c37bc9019931aa
+#: includes/admin/meta-boxes.php:219
+#: includes/admin/notices.php:14
+#, php-format
+#@ ditty-twitter-ticker
+msgid "<a href=\"%s\"><strong>Click here</strong></a> for instructions on creating an app and granting acces to <strong>Ditty Twitter Ticker</strong>."
+msgstr "<a href=\"%s\"><strong>לחץ כאן</strong></a> להנחיות ליצירת אפליקציה והרשאת גישה ל <strong>Ditty Twitter Ticker</strong>."
+
+#  <div class="error">
+#  <p><?php _e('You must authorize <strong>Ditty Twitter Ticker</strong> access through Twitter before you can display any feeds.', 'ditty-twitter-ticker'); ?><br/><?php printf( __('<a href="%s"><strong>Click here</strong></a> for instructions on creating an app and granting acces to <strong>Ditty Twitter Ticker</strong>.', 'ditty-twitter-ticker'), $link ); ?></p>
+#  </div>
+#  wpml-name: ac8f709e0012f761a00abd1976f84b3e
+#: includes/admin/meta-boxes.php:219
+#: includes/admin/notices.php:14
+#@ ditty-twitter-ticker
+msgid "You must authorize <strong>Ditty Twitter Ticker</strong> access through Twitter before you can display any feeds."
+msgstr "אתה חייב לתת הרשאה ל <strong>Ditty Twitter Ticker</strong> לגשת ל Twitter לפני שתוכל להציג הזנות כלשהן."
+
+#  if( $favorite ) {
+#  $links .= '<a href="https://twitter.com/intent/favorite?tweet_id='.$tweet['id_str'].'" target="_blank"><i class="mtphr-dnt-twitter-icon-favorite"></i>'.__('Favorite', 'ditty-twitter-ticker').'</a>';
+#  }
+#  wpml-name: 01165dcf77c191e6c69b31d98b0ec6ff
+#: includes/admin/meta-boxes.php:201
+#: includes/functions.php:198
+#@ ditty-twitter-ticker
+msgid "Favorite"
+msgstr "מועדף"
+
+#  if( $retweet ) {
+#  $links .= '<a href="https://twitter.com/intent/retweet?tweet_id='.$tweet['id_str'].'" target="_blank"><i class="mtphr-dnt-twitter-icon-retweet"></i>'.__('Retweet', 'ditty-twitter-ticker').'</a>';
+#  }
+#  wpml-name: 56d400c5431b31dcabb1ecfdd3874bba
+#: includes/admin/meta-boxes.php:200
+#: includes/functions.php:195
+#@ ditty-twitter-ticker
+msgid "Retweet"
+msgstr "ציוץ חוזר"
+
+#  if( $reply ) {
+#  $links .= '<a href="https://twitter.com/intent/tweet?in_reply_to='.$tweet['id_str'].'" target="_blank"><i class="mtphr-dnt-twitter-icon-reply"></i>'.__('Reply', 'ditty-twitter-ticker').'</a>';
+#  }
+#  wpml-name: 25d8df6e580905091a0d5ef5b9e05bf0
+#: includes/admin/meta-boxes.php:199
+#: includes/functions.php:192
+#@ ditty-twitter-ticker
+msgid "Reply"
+msgstr "השב"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_twitter_display_order[]" value="links" />';
+#  echo '<label style="margin-right:3px;"><strong>'.__('Tweet links', 'ditty-twitter-ticker').'</strong> </label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_links[reply]" value="1" '.checked(1, $reply, false).' /> '.__('Reply', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 44dea7b7884a7052c5d2ae36b3a6d0b4
+#: includes/admin/meta-boxes.php:198
+#@ ditty-twitter-ticker
+msgid "Tweet links"
+msgstr "קישורי ציוץ"
+
+#  echo '<label style="margin-right:20px;"><strong>'.__('Tweet time', 'ditty-twitter-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_twitter_time" value="1" '.checked(1, $time, false).' /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Format', 'ditty-twitter-ticker').' <input style="width:100px;" type="text" name="_mtphr_dnt_twitter_time_format" value="'.$time_format.'" /></label>';
+#  echo '<label style="margin-right:10px;"><input type="radio" name="_mtphr_dnt_twitter_time_display" value="inline" '.checked('inline', $time_display, false).' /> '.__('Inline', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 520d0db389f362bf79ef56ca0af3dcab
+#: includes/admin/meta-boxes.php:187
+#@ ditty-twitter-ticker
+msgid "Format"
+msgstr "פורמט"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_twitter_display_order[]" value="time" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('Tweet time', 'ditty-twitter-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_twitter_time" value="1" '.checked(1, $time, false).' /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Format', 'ditty-twitter-ticker').' <input style="width:100px;" type="text" name="_mtphr_dnt_twitter_time_format" value="'.$time_format.'" /></label>';
+#  wpml-name: de50d3f9ea77135559198394cb880616
+#: includes/admin/meta-boxes.php:186
+#@ ditty-twitter-ticker
+msgid "Tweet time"
+msgstr "זמן הציוץ"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_twitter_display_order[]" value="text" />';
+#  echo '<label style="margin-right:3px;"><strong>'.__('Tweet Text', 'ditty-twitter-ticker').'</strong></label>';
+#  echo '<label style="margin-right:10px;"><input type="radio" name="_mtphr_dnt_twitter_text_display" value="inline" '.checked('inline', $text, false).' /> '.__('Inline', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 558c7313477819ccfc618836b62247e2
+#: includes/admin/meta-boxes.php:175
+#@ ditty-twitter-ticker
+msgid "Tweet Text"
+msgstr "טקסט הציוץ"
+
+#  echo '<label style="margin-right:20px;"><strong>'.__('User name', 'ditty-twitter-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_twitter_name" value="1" '.checked(1, $name, false).' /></label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_handle" value="1" '.checked(1, $name_handle, false).' /> '.__('Handle', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_name_link" value="1" '.checked(1, $name_link, false).' /> '.__('Link', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: c0eab4629ee23a645d4747074335ba60
+#: includes/admin/meta-boxes.php:163
+#@ ditty-twitter-ticker
+msgid "Handle"
+msgstr "מאחז"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_twitter_display_order[]" value="name" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('User name', 'ditty-twitter-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_twitter_name" value="1" '.checked(1, $name, false).' /></label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_handle" value="1" '.checked(1, $name_handle, false).' /> '.__('Handle', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 987dce661afca3372aa3e05702fb1d06
+#: includes/admin/meta-boxes.php:162
+#@ ditty-twitter-ticker
+msgid "User name"
+msgstr "שם משתמש"
+
+#  echo '<label style="margin-right:10px;"><input type="radio" name="_mtphr_dnt_twitter_links_display" value="inline" '.checked('inline', $links_display, false).' /> '.__('Inline', 'ditty-twitter-ticker').'</label>';
+#  echo '<label><input type="radio" name="_mtphr_dnt_twitter_links_display" value="block" '.checked('block', $links_display, false).' /> '.__('Block', 'ditty-twitter-ticker').'</label>';
+#  echo '</td>';
+#  wpml-name: e1e4c8c9ccd9fc39c391da4bcd093fb2
+#: includes/admin/meta-boxes.php:153
+#: includes/admin/meta-boxes.php:166
+#: includes/admin/meta-boxes.php:177
+#: includes/admin/meta-boxes.php:189
+#: includes/admin/meta-boxes.php:203
+#@ ditty-twitter-ticker
+msgid "Block"
+msgstr "בלוק"
+
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_links[favorite]" value="1" '.checked(1, $favorite, false).' /> '.__('Favorite', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:10px;"><input type="radio" name="_mtphr_dnt_twitter_links_display" value="inline" '.checked('inline', $links_display, false).' /> '.__('Inline', 'ditty-twitter-ticker').'</label>';
+#  echo '<label><input type="radio" name="_mtphr_dnt_twitter_links_display" value="block" '.checked('block', $links_display, false).' /> '.__('Block', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 0125cf5f3ca38b312ca5d3b511c45a13
+#: includes/admin/meta-boxes.php:152
+#: includes/admin/meta-boxes.php:165
+#: includes/admin/meta-boxes.php:176
+#: includes/admin/meta-boxes.php:188
+#: includes/admin/meta-boxes.php:202
+#@ ditty-twitter-ticker
+msgid "Inline"
+msgstr "בשורה"
+
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_handle" value="1" '.checked(1, $name_handle, false).' /> '.__('Handle', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_name_link" value="1" '.checked(1, $name_link, false).' /> '.__('Link', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:10px;"><input type="radio" name="_mtphr_dnt_twitter_name_display" value="inline" '.checked('inline', $name_display, false).' /> '.__('Inline', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 97e7c9a7d06eac006a28bf05467fcc8b
+#: includes/admin/meta-boxes.php:151
+#: includes/admin/meta-boxes.php:164
+#@ ditty-twitter-ticker
+msgid "Link"
+msgstr "קישור"
+
+#  echo '<label style="margin-right:20px;">'.__('Dimensions', 'ditty-twitter-ticker').' <input type="number" name="_mtphr_dnt_twitter_avatar_dimensions" value="'.$avatar_dimensions.'" /></label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_avatar_left" value="1" '.checked(1, $avatar_left, false).' /> '.__('Lock Left', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_avatar_link" value="1" '.checked(1, $avatar_link, false).' /> '.__('Link', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 6709140d8a135832078023fa1c0b974e
+#: includes/admin/meta-boxes.php:150
+#@ ditty-twitter-ticker
+msgid "Lock Left"
+msgstr "נעל שמאלה"
+
+#  echo '<label style="margin-right:20px;"><strong>'.__('User avatar', 'ditty-twitter-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_twitter_avatar" value="1" '.checked(1, $avatar, false).' /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Dimensions', 'ditty-twitter-ticker').' <input type="number" name="_mtphr_dnt_twitter_avatar_dimensions" value="'.$avatar_dimensions.'" /></label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_avatar_left" value="1" '.checked(1, $avatar_left, false).' /> '.__('Lock Left', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: f4843c1c797abf1a256c8802b6cd9f51
+#: includes/admin/meta-boxes.php:149
+#@ ditty-twitter-ticker
+msgid "Dimensions"
+msgstr "מידות"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_twitter_display_order[]" value="avatar" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('User avatar', 'ditty-twitter-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_twitter_avatar" value="1" '.checked(1, $avatar, false).' /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Dimensions', 'ditty-twitter-ticker').' <input type="number" name="_mtphr_dnt_twitter_avatar_dimensions" value="'.$avatar_dimensions.'" /></label>';
+#  wpml-name: 5580ceafc3f05d1b31e318f00e2d187c
+#: includes/admin/meta-boxes.php:148
+#@ ditty-twitter-ticker
+msgid "User avatar"
+msgstr "השתמש באווטאר"
+
+#  echo '<label>'.__('Feed item arrangement', 'ditty-twitter-ticker').'</label>';
+#  echo '<small>'.__('Set the tweet assets and order', 'ditty-twitter-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 9af5f57efe8e93615649a5141484325b
+#: includes/admin/meta-boxes.php:136
+#@ ditty-twitter-ticker
+msgid "Set the tweet assets and order"
+msgstr "קבע את נכסי הציוצים והסדר שלהם"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Feed item arrangement', 'ditty-twitter-ticker').'</label>';
+#  echo '<small>'.__('Set the tweet assets and order', 'ditty-twitter-ticker').'</small>';
+#  wpml-name: c782b68816c7cfcb7c5032109a4e10bb
+#: includes/admin/meta-boxes.php:135
+#@ ditty-twitter-ticker
+msgid "Feed item arrangement"
+msgstr "סידור פריט הזנה"
+
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_hide_replies" value="1" '.checked(1, $replies, false).' /> '.__('Hide replies', 'ditty-twitter-ticker').'</label>';
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_twitter_disbursement" value="1" '.checked(1, $disbursement, false).' /> '.__('Even disbursement', 'ditty-twitter-ticker').'</label>';
+#  echo '</tr>';
+#  wpml-name: 89bade09f6a64e70b90cb505fc35d474
+#: includes/admin/meta-boxes.php:120
+#@ ditty-twitter-ticker
+msgid "Even disbursement"
+msgstr "הוצאה שווה"
+
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_hide_retweets" value="1" '.checked(1, $retweets, false).' /> '.__('Hide retweets', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_hide_replies" value="1" '.checked(1, $replies, false).' /> '.__('Hide replies', 'ditty-twitter-ticker').'</label>';
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_twitter_disbursement" value="1" '.checked(1, $disbursement, false).' /> '.__('Even disbursement', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 8939c7a0d86248e079c0ed44e8a1d38b
+#: includes/admin/meta-boxes.php:119
+#@ ditty-twitter-ticker
+msgid "Hide replies"
+msgstr "הסתר תגובות"
+
+#  echo '<label style="margin-right:20px;"><input type="number" name="_mtphr_dnt_twitter_limit" value="'.$limit.'" /> '.__('Limit', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_hide_retweets" value="1" '.checked(1, $retweets, false).' /> '.__('Hide retweets', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_hide_replies" value="1" '.checked(1, $replies, false).' /> '.__('Hide replies', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: d44989faf2b3da3ede8cf4861d8ee3e8
+#: includes/admin/meta-boxes.php:118
+#@ ditty-twitter-ticker
+msgid "Hide retweets"
+msgstr "הסתר ציוצים חוזרים"
+
+#  echo '<td>';
+#  echo '<label style="margin-right:20px;"><input type="number" name="_mtphr_dnt_twitter_limit" value="'.$limit.'" /> '.__('Limit', 'ditty-twitter-ticker').'</label>';
+#  echo '<label style="margin-right:20px;"><input type="checkbox" name="_mtphr_dnt_twitter_hide_retweets" value="1" '.checked(1, $retweets, false).' /> '.__('Hide retweets', 'ditty-twitter-ticker').'</label>';
+#  wpml-name: 80d2677cf518f4d04320042f4ea6c146
+#: includes/admin/meta-boxes.php:117
+#@ ditty-twitter-ticker
+msgid "Limit"
+msgstr "הגבלה"
+
+#  echo '<label>'.__('Feed options', 'ditty-twitter-ticker').'</label>';
+#  echo '<small>'.__('Limit the number of tweets to show and set additional options', 'ditty-twitter-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 4efbd1667c7e0343a63d1df6fbd41892
+#: includes/admin/meta-boxes.php:114
+#@ ditty-twitter-ticker
+msgid "Limit the number of tweets to show and set additional options"
+msgstr "הגבל את מספר הציוצים להצגה וקבע אפשרויות נוספות"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Feed options', 'ditty-twitter-ticker').'</label>';
+#  echo '<small>'.__('Limit the number of tweets to show and set additional options', 'ditty-twitter-ticker').'</small>';
+#  wpml-name: a821f9ee88489f8e461cae0dd5b9f1bb
+#: includes/admin/meta-boxes.php:113
+#@ ditty-twitter-ticker
+msgid "Feed options"
+msgstr "אפשרויות הזנה"
+
+#  echo '<label>'.__('Handles', 'ditty-twitter-ticker').'</label>';
+#  echo '<small>'.__('Add an unlimited number of ticks to your ticker', 'ditty-twitter-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: ac9582dd9c6ff35812239e26dda022d2
+#: includes/admin/meta-boxes.php:93
+#@ ditty-twitter-ticker
+msgid "Add an unlimited number of ticks to your ticker"
+msgstr "הוסף מספר בלתי מוגבל של מבזקים למבזקון שלך"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Handles', 'ditty-twitter-ticker').'</label>';
+#  echo '<small>'.__('Add an unlimited number of ticks to your ticker', 'ditty-twitter-ticker').'</small>';
+#  wpml-name: 0e0b79bbe473f399153e1debdebafe54
+#: includes/admin/meta-boxes.php:92
+#@ ditty-twitter-ticker
+msgid "Handles"
+msgstr "מאחזים"
+
+#  $time_format = get_post_meta( $post->ID, '_mtphr_dnt_twitter_time_format', true );
+#  $time_format = ( $time_format == '' ) ? '{time} '.__('ago', 'ditty-twitter-ticker') : $time_format;
+#  wpml-name: 6d0a578ca2f2c0e792fc923002fccbe3
+#: includes/admin/meta-boxes.php:72
+#@ ditty-twitter-ticker
+msgid "ago"
+msgstr "לפני"
+
+#  add_meta_box( 'mtphr_dnt_twitter_metabox', __('Twitter Ticker Data', 'ditty-twitter-ticker'), 'mtphr_dnt_twitter_render_metabox', 'ditty_news_ticker', 'normal', 'high' );
+#  }
+#  wpml-name: 8a81dc2654aacfb2dfc4a6a5d529caaf
+#: includes/admin/meta-boxes.php:9
+#@ ditty-twitter-ticker
+msgid "Twitter Ticker Data"
+msgstr "נתוני מבזק Twitter"
+
+#  $url = get_bloginfo('wpurl').'/wp-admin/plugin-install.php?tab=plugin-information&plugin=ditty-news-ticker&TB_iframe=true&width=640&height=500';
+#  echo '<div class="error"><p>'.sprintf(__('<a class="thickbox" href="%s"><strong>Ditty News Ticker</strong></a> must be installed and activated to use Ditty Twitter Ticker.','ditty-twitter-ticker'), $url).'</p></div>';
+#  }
+#  wpml-name: 0be9758cf93cfa47ba54e93c25c5807a
+#: ditty-twitter-ticker.php:75
+#, php-format
+#@ ditty-twitter-ticker
+msgid "<a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> must be installed and activated to use Ditty Twitter Ticker."
+msgstr "תוסף <a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> חייב להיות מותקן ומופעל לפני שתוכל להשתמש ב Ditty Twitter Ticker."
+
+#: includes/admin/meta-boxes.php:125
+#@ ditty-twitter-ticker
+msgid "Direct link"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:126
+#@ ditty-twitter-ticker
+msgid "Convert the full tick into a direct link to the original tweet"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:129
+#@ ditty-twitter-ticker
+msgid "Link ticks to original tweet"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:130
+#@ ditty-twitter-ticker
+msgid "Enabling this featured will disable all other links for the tick and hide the Tweet links"
+msgstr ""
+
+#: includes/settings.php:155
+#, php-format
+#@ ditty-twitter-ticker
+msgid "Go to your Twitter Apps page %s and log into your account"
+msgstr ""
+
+#: includes/settings.php:213
+#@ ditty-twitter-ticker
+msgid "Select the checkbox to agree to the <strong>Developer Agreement</strong>"
+msgstr ""
+
+#: includes/settings.php:235
+#@ ditty-twitter-ticker
+msgid "Once your application is created select the <strong>Keys and Access Tokens</strong> tab on your App page"
+msgstr ""
+
+#: includes/settings.php:246
+#@ ditty-twitter-ticker
+msgid "Copy and paste the <strong>Consumer Key (API Key)</strong> here"
+msgstr ""
+
+#: includes/settings.php:258
+#@ ditty-twitter-ticker
+msgid "Copy and paste the <strong>Consumer Secret (API Secret)</strong> here"
+msgstr ""
+

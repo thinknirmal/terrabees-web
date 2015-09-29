@@ -1,0 +1,28 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="ignore">_mtphr_dnt_twitter_type</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_handles</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_limit</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_hide_retweets</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_hide_replies</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_disbursement</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_display_order</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_avatar</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_avatar_dimensions</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_avatar_left</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_avatar_link</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_avatar_display</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_name</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_handle</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_name_link</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_name_display</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_text_display</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_time</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_time_format</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_time_display</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_links</custom-field>
+        <custom-field action="ignore">_mtphr_dnt_twitter_links_display</custom-field>
+    </custom-fields>    
+</wpml-config>
+
+

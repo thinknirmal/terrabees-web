@@ -1,0 +1,36 @@
+#ditty-twitter-credentials {
+	float: left;
+	display: block;
+	text-align: center;
+}
+#ditty-twitter-credentials img {
+	width: 48px;
+	height: auto;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+#ditty-twitter-credentials p {
+	font-weight: bold;
+}
+#ditty-twitter-reset {
+	font-style: normal;
+}
+
+.mtphr-dnt-twitter-assets .mtphr-dnt-list-item td {
+	padding: 6px 3px;
+	border-bottom: 1px dashed #CCC;
+}
+.mtphr-dnt-twitter-assets .mtphr-dnt-list-item strong {
+	display: inline-block;
+	width: 90px;
+}
+.mtphr-dnt-twitter-handle,
+.mtphr-dnt-twitter-handle input {
+	width: 100%;
+}
+
+.ditty_news_ticker_page_mtphr_dnt_settings #icl_subsubsub,
+.ditty_news_ticker_page_mtphr_dnt_settings .subsubsub br {
+	display: none;
+}
